@@ -1,0 +1,56 @@
+.app{
+    min-height: 500px;
+    width: 100%;
+    background-color: purple;
+    display: flex;
+    padding-top: 20px;
+
+
+    .photoWrapper{
+        width: 800px;
+        min-height: 800px;
+        margin-left: 150px;
+
+    .photoWrap{
+        height:400px;
+        width: 400px;
+        background-color: aliceblue;
+        margin-bottom: 25px;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    }
+
+    .middle-hero-wrap{
+        width: 800px;
+        height: 800px;
+        background-color: aliceblue;
+        background-image: url(https://assets.nick.com/uri/mgid:arc:imageassetref:nick.com:348862e8-daed-4089-897c-1fd7beb8e6e0?quality=0.7&quality=.7&height=0&width=1600&crop=true);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        h1{
+            color: white;
+            font-size: 45px;
+            text-align: center;
+            padding-left: 10px;
+        }
+
+        h4{
+            color: orange;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        p{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}
+
